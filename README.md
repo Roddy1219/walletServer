@@ -3,5 +3,5 @@
 虚拟币充值平台
 
 # 架构说明
-![Alt text](https://github.com/Roddy1219/WalletServer/templates/coin.png)
+![img](https://github.com/Roddy1219/walletServer/blob/master/templates/coin.png)
 
