@@ -21,6 +21,11 @@ def getHashValue(string, sign):
     else:
         return True
 
+class IndexView(APIView):
+    renderer_classes = (renderers.JSONRenderer,)
+    def get(self,request):
+        return Response({'code':1,'message':'Not Found Path, Please get another path'})
+
 
 class GetUserWalletAddress(APIView):
     """

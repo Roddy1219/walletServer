@@ -895,3 +895,21 @@ NameError: global name 'true' is not defined
 [2018-03-09 10:09:17,604] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
 [2018-03-09 10:09:19,954] [INFO] "GET /admin/walletapi/appuserrecharge/ HTTP/1.1" 200 8277
 [2018-03-09 10:09:19,983] [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-12 14:27:51,145] [WARNING] Not Found: /
+[2018-03-12 14:27:51,161] [WARNING] "GET / HTTP/1.1" 404 2017
+[2018-03-12 14:31:02,260] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:31:04,710] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:32:24,732] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:32:30,867] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-03-12 14:32:32,750] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-12 14:32:32,766] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 304 0
+[2018-03-12 14:32:32,792] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 304 0
+[2018-03-12 14:32:32,793] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 304 0
+[2018-03-12 14:33:09,267] [WARNING] Not Found: /admin/
+[2018-03-12 14:33:09,269] [WARNING] "GET /admin/ HTTP/1.1" 404 2159
+[2018-03-12 14:33:16,700] [INFO] "GET /admin/sys/url HTTP/1.1" 301 0
+[2018-03-12 14:33:16,763] [INFO] "GET /admin/sys/url/ HTTP/1.1" 302 0
+[2018-03-12 14:33:16,857] [INFO] "GET /admin/sys/url/login/?next=/admin/sys/url/ HTTP/1.1" 200 2647
+[2018-03-12 14:33:37,246] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:33:40,526] [WARNING] Not Found: /admin/
+[2018-03-12 14:33:40,526] [WARNING] "GET /admin/ HTTP/1.1" 404 80

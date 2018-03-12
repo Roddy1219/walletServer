@@ -23,7 +23,7 @@ class Config(object):
 
 
 class ProductionConfig(Config):
-    DEBUG = True
+    DEBUG = False
 
     DB_HOST_1 = '192.168.12.239'
     DB_PORT_1 = 3306
