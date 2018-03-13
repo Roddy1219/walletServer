@@ -913,3 +913,1040 @@ NameError: global name 'true' is not defined
 [2018-03-12 14:33:37,246] [INFO] "GET / HTTP/1.1" 200 62
 [2018-03-12 14:33:40,526] [WARNING] Not Found: /admin/
 [2018-03-12 14:33:40,526] [WARNING] "GET /admin/ HTTP/1.1" 404 80
+[2018-03-12 14:53:29,198] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:53:32,813] [WARNING] Not Found: /sz
+[2018-03-12 14:53:32,815] [WARNING] "GET /sz HTTP/1.1" 404 76
+[2018-03-12 14:53:35,220] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:57:34,065] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 14:57:35,950] [ERROR] "GET /sdsd HTTP/1.1" 500 59
+[2018-03-12 14:57:39,058] [ERROR] "GET /sdsd HTTP/1.1" 500 59
+[2018-03-12 14:58:49,729] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 113, in get_exception_response
+    response = callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:49,894] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 54, in response_for_exception
+    response = get_exception_response(request, get_resolver(get_urlconf()), 404, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 116, in get_exception_response
+    response = handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:49,950] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:50,002] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:50,055] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:50,109] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:50,164] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:50,220] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:50,275] [ERROR] "GET /sdsd HTTP/1.1" 500 59
+[2018-03-12 14:58:51,680] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 113, in get_exception_response
+    response = callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:51,786] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 54, in response_for_exception
+    response = get_exception_response(request, get_resolver(get_urlconf()), 404, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 116, in get_exception_response
+    response = handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:51,871] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:51,943] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:52,016] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:52,094] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:52,145] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:52,197] [ERROR] Internal Server Error: /sdsd
+Traceback (most recent call last):
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.get_response(request)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = response_for_exception(request, exc)
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 94, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "E:\pythonvir\btwallet\lib\site-packages\django\core\handlers\exception.py", line 143, in handle_uncaught_exception
+    return callback(request, **param_dict)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[2018-03-12 14:58:52,253] [ERROR] "GET /sdsd HTTP/1.1" 500 59
+[2018-03-12 15:00:59,079] [INFO] "GET /sdsd HTTP/1.1" 200 36
+[2018-03-12 15:01:04,734] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 15:36:13,009] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-12 15:37:37,670] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-13 09:35:54,247] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-13 09:36:09,520] [INFO] "GET /admin/sys/url HTTP/1.1" 301 0
+[2018-03-13 09:36:09,681] [INFO] "GET /admin/sys/url/ HTTP/1.1" 302 0
+[2018-03-13 09:36:11,575] [INFO] "GET /admin/sys/url/login/?next=/admin/sys/url/ HTTP/1.1" 200 2647
+[2018-03-13 09:36:11,591] [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 36
+[2018-03-13 09:36:16,678] [INFO] "POST /admin/sys/url/login/?next=/admin/sys/url/ HTTP/1.1" 302 0
+[2018-03-13 09:36:16,788] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 09:36:16,841] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:16,915] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:16,924] [INFO] "GET /static/suit/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:22,918] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:22,956] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:22,957] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:22,963] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:22,964] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:22,967] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:22,979] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:22,996] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:23,026] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:23,032] [INFO] "GET /static/suit/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:24,973] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:25,002] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:25,009] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:25,009] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:25,009] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:25,012] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:25,017] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:25,039] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:25,058] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:25,065] [INFO] "GET /static/suit/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:30,430] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:30,446] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:30,457] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:30,457] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:30,461] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:30,463] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:30,469] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:30,493] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:30,507] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:30,513] [INFO] "GET /static/suit/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:31,618] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:31,644] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:31,645] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:31,650] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:31,651] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:31,657] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:31,661] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:31,680] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:31,696] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:31,700] [INFO] "GET /static/suit/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 200 36
+[2018-03-13 09:36:33,605] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:33,619] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:33,622] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:33,624] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:33,644] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,645] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,648] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,651] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,653] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:33,653] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,657] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,658] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,658] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,664] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:33,667] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:33,673] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:33,677] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:33,825] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:33,828] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:33,867] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:35,631] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:35,647] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:35,653] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:35,657] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:35,663] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,664] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,665] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,670] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,674] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,678] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,680] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,681] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,684] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:35,690] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:35,694] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:35,697] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:35,701] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:35,714] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:35,714] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:35,726] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:40,088] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:40,115] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,125] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,127] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,138] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,138] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,144] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,145] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,150] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,154] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,155] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,157] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,161] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:40,184] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,190] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,190] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,191] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,198] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:40,737] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:40,753] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,756] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,766] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,770] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,775] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,779] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,779] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,782] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,786] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,789] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,792] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,795] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:40,798] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,802] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,806] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,806] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,818] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:40,910] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:40,934] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,936] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,938] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:40,946] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,947] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,954] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,957] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,959] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,963] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,966] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,967] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,973] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:40,974] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:40,983] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,990] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:40,993] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:41,000] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:43,283] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:43,301] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:43,305] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:43,309] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:43,319] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,322] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,326] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,334] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,336] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,341] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,342] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,342] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,345] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:43,349] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:43,354] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:43,357] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:43,361] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:43,581] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:43,582] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:43,591] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:46,183] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 09:36:46,213] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:46,802] [INFO] "GET /admin/sys/url/login/?next=/admin/sys/url/ HTTP/1.1" 302 0
+[2018-03-13 09:36:46,846] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 09:36:46,871] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:47,664] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 09:36:47,687] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:47,802] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:47,832] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:49,953] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:49,974] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:49,976] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:49,977] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:49,983] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:49,986] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:49,990] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:49,992] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:49,993] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:50,000] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:50,000] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:50,003] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:50,006] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:50,007] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:50,017] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:50,017] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:50,022] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:50,029] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:36:51,348] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:51,351] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:51,351] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:52,842] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:36:52,865] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:36:52,871] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:36:52,877] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:36:52,888] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,894] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,910] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,921] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,923] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,933] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,937] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,940] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,946] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:36:52,951] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:36:52,957] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:52,960] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:52,973] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:52,980] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:36:52,996] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:37:10,114] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:37:10,160] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:37:10,168] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:37:10,170] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:37:10,176] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,184] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,184] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,196] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,207] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,213] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,217] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,219] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,221] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:37:10,229] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:37:10,233] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:10,240] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:10,252] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:10,276] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:10,289] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:37:15,148] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:37:15,167] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:37:15,184] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:37:15,190] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:37:15,200] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,203] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,213] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,216] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,226] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,232] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,234] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,236] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,240] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:37:15,243] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:37:15,253] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:15,259] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:15,269] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:15,759] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:15,766] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:15,782] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:37:18,298] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:37:18,312] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:37:18,332] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:37:18,335] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,338] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:37:18,342] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,346] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,357] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,358] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,361] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,362] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,365] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,368] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:37:18,371] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:37:18,380] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:18,401] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:18,405] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:37:18,410] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:38:22,782] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:38:22,801] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:38:22,809] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:38:22,825] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:38:22,832] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,838] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,841] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,842] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,851] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,854] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,861] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,871] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,878] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:38:22,884] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:38:22,897] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:38:22,910] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:38:22,914] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:38:22,924] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:39:27,819] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:39:27,854] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:39:27,858] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:39:27,865] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:39:27,878] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,881] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,888] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,901] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,901] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,907] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,908] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,911] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,917] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:39:27,964] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:39:27,973] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:39:27,977] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:39:27,982] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:39:27,993] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:10,888] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:40:10,936] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:40:10,944] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:40:10,944] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:40:10,960] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:40:10,969] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:10,996] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,003] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,012] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,019] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,020] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,026] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,029] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:40:11,082] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:40:11,112] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:40:11,125] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:40:11,128] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:40:11,144] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:13,003] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12019
+[2018-03-13 09:40:13,032] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:40:13,049] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:40:13,053] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:40:13,061] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,062] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,066] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,072] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,075] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,082] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,086] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,086] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,091] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:40:13,099] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:40:13,114] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:40:13,115] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:40:13,118] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:40:13,128] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:15,778] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-13 09:40:15,808] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:27,131] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 09:40:27,144] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:40:27,154] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:40:27,155] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:40:27,155] [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 36
+[2018-03-13 09:40:27,226] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:41,710] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 36
+[2018-03-13 09:40:41,737] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:45,216] [INFO] "GET /admin/ HTTP/1.1" 200 36
+[2018-03-13 09:40:45,237] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:55,492] [INFO] "GET /admin/ HTTP/1.1" 200 36
+[2018-03-13 09:40:55,506] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:40:57,591] [INFO] "GET /admin/ HTTP/1.1" 200 36
+[2018-03-13 09:40:57,608] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:41:30,473] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:41:30,483] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:41:30,493] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:41:30,503] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:41:30,503] [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 36
+[2018-03-13 09:41:30,562] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:41:42,259] [INFO] "GET /admin/walletapi/transactionsid/ HTTP/1.1" 200 11835
+[2018-03-13 09:41:42,289] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:41:42,296] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:41:42,298] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:41:42,306] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,311] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,312] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,322] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,325] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,329] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,335] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,335] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,338] [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:41:42,342] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:41:42,348] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:41:42,357] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:41:42,359] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:41:42,378] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:44:15,607] [INFO] "GET /admin/walletapi/transactionsid/ HTTP/1.1" 200 11835
+[2018-03-13 09:44:15,634] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:44:15,637] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:44:15,647] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 36
+[2018-03-13 09:44:15,657] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,664] [INFO] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,667] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,670] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,674] [INFO] "GET /static/admin/js/actions.min.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,677] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,680] [INFO] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,684] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,691] [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:44:15,696] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:44:15,700] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 36
+[2018-03-13 09:44:15,706] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:44:15,710] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:44:15,786] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 36
+[2018-03-13 09:44:15,792] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 36
+[2018-03-13 09:44:15,802] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:44:54,933] [INFO] "GET /admin/logout/ HTTP/1.1" 200 3701
+[2018-03-13 09:44:54,953] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:44:54,959] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:44:54,959] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:44:55,033] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:44:57,150] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-03-13 09:44:57,180] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:44:57,200] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:44:57,210] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:44:57,214] [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 36
+[2018-03-13 09:44:57,217] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:44:57,269] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:45:00,151] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-03-13 09:45:00,176] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:45:00,190] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 36
+[2018-03-13 09:45:00,203] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 36
+[2018-03-13 09:45:00,207] [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 36
+[2018-03-13 09:45:00,210] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 36
+[2018-03-13 09:45:00,269] [INFO] "GET /favicon.ico HTTP/1.1" 200 36
+[2018-03-13 09:45:28,756] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:45:28,826] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:45:28,832] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:45:28,834] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:45:28,834] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:45:28,838] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:28,839] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:45:28,839] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:45:28,842] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:45:28,851] [WARNING] Not Found: /favicon.ico
+[2018-03-13 09:45:28,852] [WARNING] "GET /favicon.ico HTTP/1.1" 404 85
+[2018-03-13 09:45:29,730] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:45:29,743] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:45:29,744] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:45:29,763] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:45:29,766] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:45:29,767] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:45:29,767] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:29,773] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:45:29,776] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:45:29,809] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:29,809] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:45:31,801] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:45:31,835] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:45:31,835] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:45:31,838] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:31,839] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:45:31,841] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:45:31,842] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:45:31,845] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:45:31,845] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:45:31,884] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:31,885] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:45:35,289] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-03-13 09:45:35,328] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:45:35,358] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:45:35,361] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:45:35,361] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:35,361] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:45:35,362] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:45:35,365] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:45:35,367] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:45:35,368] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:45:35,407] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:45:35,407] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:01,167] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:01,184] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:01,184] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:01,188] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:01,190] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:01,203] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:01,203] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:01,204] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:01,206] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:01,257] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:01,263] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:01,904] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:01,934] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:01,936] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:01,937] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:01,937] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:01,938] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:01,940] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:01,941] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:01,944] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:01,984] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:01,986] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:02,023] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:02,039] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:02,039] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:02,049] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:02,052] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:02,055] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:02,058] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:02,061] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:02,063] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:02,114] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:02,114] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:02,855] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-03-13 09:46:02,881] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:02,898] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:02,898] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:02,911] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:02,915] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:02,920] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:02,923] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:02,924] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:02,927] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:02,969] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:02,969] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:17,160] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:17,180] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:17,184] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:17,188] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:17,190] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:17,190] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:17,193] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:17,194] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:17,197] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:17,250] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:17,250] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:17,816] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:17,849] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:17,851] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:17,851] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:17,851] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:17,852] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:17,854] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:17,855] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:17,857] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:17,907] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:17,907] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:17,953] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:17,976] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:17,977] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:17,980] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:17,980] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:17,993] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:17,993] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:17,996] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:17,996] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,062] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,062] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,224] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:18,240] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:18,243] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:18,256] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:18,263] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:18,265] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:18,265] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,266] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:18,266] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,329] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,331] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,382] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:18,400] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:18,401] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:18,404] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:18,404] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:18,414] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:18,414] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,415] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,415] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:18,467] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,467] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,621] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:18,654] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:18,655] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:18,657] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:18,658] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:18,681] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:18,686] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,696] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:18,707] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,776] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:18,805] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:18,806] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:18,813] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:18,815] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:18,815] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,815] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:18,816] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:18,819] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:18,859] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:18,861] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:19,009] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:19,030] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:19,030] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:19,046] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:19,046] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:19,048] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:19,049] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:19,049] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:19,051] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:19,095] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:19,095] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:19,138] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:19,161] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:19,163] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:19,164] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:19,165] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:19,167] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:19,167] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:19,168] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:19,170] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:19,221] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:19,223] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:19,276] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:46:19,296] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:46:19,296] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:46:19,322] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:46:19,323] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:46:19,336] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:46:19,338] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:19,339] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:46:19,341] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:46:19,358] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:46:19,359] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:48:44,904] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-13 09:48:47,819] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-03-13 09:48:47,901] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2615
+[2018-03-13 09:48:47,910] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:48:47,914] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:48:47,920] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:48:47,920] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:48:47,920] [WARNING] Not Found: /static/admin/css/login.css
+[2018-03-13 09:48:47,921] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:48:47,921] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:48:47,921] [WARNING] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[2018-03-13 09:48:47,960] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:48:47,961] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:48:53,086] [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2018-03-13 09:48:53,134] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:48:53,148] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:48:53,150] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:48:53,154] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:48:53,154] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:48:53,155] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:48:53,155] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:48:53,155] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:48:53,157] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:48:57,029] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:48:57,029] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:48:57,032] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:48:57,032] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:48:57,032] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:48:57,036] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:48:59,864] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:48:59,888] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:48:59,894] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:48:59,894] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:48:59,895] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:48:59,898] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:48:59,898] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:48:59,901] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:48:59,905] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:44,203] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:49:44,232] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:44,234] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:49:44,236] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:49:44,237] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:49:44,237] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:49:44,240] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:49:44,242] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:49:44,243] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:44,904] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:49:44,923] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:44,924] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:49:44,940] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:49:44,941] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:49:44,941] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:49:44,944] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:49:44,944] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:49:44,944] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:45,040] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:49:45,075] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:45,076] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:49:45,079] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:49:45,079] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:49:45,085] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:49:45,085] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:49:45,088] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:49:45,094] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:45,184] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:49:45,214] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:45,219] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:49:45,221] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:49:45,223] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:49:45,227] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:49:45,229] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:49:45,229] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:49:45,230] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:45,322] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:49:45,344] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:45,348] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:49:45,352] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:49:45,355] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:49:45,357] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:49:45,358] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:49:45,358] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:49:45,358] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:45,483] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:49:45,503] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:45,505] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:49:45,520] [WARNING] Not Found: /static/suit/css/font-awesome.min.css
+[2018-03-13 09:49:45,522] [WARNING] Not Found: /static/admin/css/dashboard.css
+[2018-03-13 09:49:45,523] [WARNING] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 404 110
+[2018-03-13 09:49:45,525] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:49:45,525] [WARNING] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[2018-03-13 09:49:45,526] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:49:57,453] [WARNING] Not Found: /static/suit/css/suit.css
+[2018-03-13 09:49:57,454] [WARNING] "GET /static/suit/css/suit.css HTTP/1.1" 404 98
+[2018-03-13 09:50:43,288] [WARNING] Not Found: /static/suit/js/suit.js
+[2018-03-13 09:50:43,289] [WARNING] "GET /static/suit/js/suit.js HTTP/1.1" 404 96
+[2018-03-13 09:51:11,821] [WARNING] Not Found: /static/a.css
+[2018-03-13 09:51:11,822] [WARNING] "GET /static/a.css HTTP/1.1" 404 86
+[2018-03-13 09:52:16,493] [WARNING] Not Found: /static/a.css
+[2018-03-13 09:52:16,494] [WARNING] "GET /static/a.css HTTP/1.1" 404 86
+[2018-03-13 09:52:17,549] [WARNING] Not Found: /static/a.css
+[2018-03-13 09:52:17,549] [WARNING] "GET /static/a.css HTTP/1.1" 404 86
+[2018-03-13 09:52:17,687] [WARNING] Not Found: /static/a.css
+[2018-03-13 09:52:17,688] [WARNING] "GET /static/a.css HTTP/1.1" 404 86
+[2018-03-13 09:52:18,000] [WARNING] Not Found: /static/a.css
+[2018-03-13 09:52:18,000] [WARNING] "GET /static/a.css HTTP/1.1" 404 86
+[2018-03-13 09:52:18,147] [WARNING] Not Found: /static/a.css
+[2018-03-13 09:52:18,148] [WARNING] "GET /static/a.css HTTP/1.1" 404 86
+[2018-03-13 09:52:20,871] [WARNING] Not Found: /ssss
+[2018-03-13 09:52:20,871] [WARNING] "GET /ssss HTTP/1.1" 404 78
+[2018-03-13 09:53:28,371] [WARNING] Not Found: /ssss
+[2018-03-13 09:53:28,372] [WARNING] "GET /ssss HTTP/1.1" 404 2145
+[2018-03-13 09:53:31,237] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:53:32,256] [INFO] "GET /static/suit/js/suit.js HTTP/1.1" 200 7609
+[2018-03-13 09:53:32,256] [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 74
+[2018-03-13 09:53:32,259] [INFO] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 31000
+[2018-03-13 09:53:32,267] [INFO] "GET /static/suit/css/suit.css HTTP/1.1" 200 524193
+[2018-03-13 09:53:32,305] [INFO] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[2018-03-13 09:53:34,742] [INFO] "GET /admin/walletapi/transactionsid/ HTTP/1.1" 200 11819
+[2018-03-13 09:53:34,772] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 74
+[2018-03-13 09:53:34,806] [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:53:34,816] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2018-03-13 09:53:34,822] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[2018-03-13 09:53:34,825] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6577
+[2018-03-13 09:53:34,825] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[2018-03-13 09:53:34,845] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2018-03-13 09:53:34,852] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2018-03-13 09:53:34,859] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2018-03-13 09:53:43,496] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-13 09:53:46,523] [INFO] "GET /admin/ HTTP/1.1" 200 12152
+[2018-03-13 09:53:48,174] [INFO] "GET /admin/walletapi/transactionsid/ HTTP/1.1" 200 11819
+[2018-03-13 09:53:48,194] [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:54:19,209] [WARNING] Not Found: /admin/walletapi/transactionsid/
+[2018-03-13 09:54:19,210] [WARNING] "GET /admin/walletapi/transactionsid/ HTTP/1.1" 404 2233
+[2018-03-13 09:54:23,592] [WARNING] Not Found: /admin/sys/url/
+[2018-03-13 09:54:23,594] [WARNING] "GET /admin/sys/url/ HTTP/1.1" 404 5124
+[2018-03-13 09:54:29,381] [WARNING] Not Found: /admin/sys/url/
+[2018-03-13 09:54:29,381] [WARNING] "GET /admin/sys/url/ HTTP/1.1" 404 5124
+[2018-03-13 09:54:37,144] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 09:54:38,779] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12003
+[2018-03-13 09:54:38,798] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:54:39,654] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:54:39,671] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:54:41,107] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8167
+[2018-03-13 09:54:41,125] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:54:42,542] [INFO] "GET /admin/sys/url/walletapi/cointype/ HTTP/1.1" 200 9239
+[2018-03-13 09:54:42,562] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:05,121] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12003
+[2018-03-13 09:56:05,144] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:24,309] [INFO] "GET /admin/sys/url/walletapi/cointype/ HTTP/1.1" 200 9239
+[2018-03-13 09:56:24,328] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:27,338] [INFO] "GET /admin/sys/url/walletapi/cointype/add/ HTTP/1.1" 200 11593
+[2018-03-13 09:56:27,362] [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2018-03-13 09:56:27,368] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:28,936] [INFO] "GET /admin/sys/url/walletapi/cointype/ HTTP/1.1" 200 9239
+[2018-03-13 09:56:30,453] [INFO] "GET /admin/sys/url/walletapi/userbalance/ HTTP/1.1" 200 9395
+[2018-03-13 09:56:30,473] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:33,436] [INFO] "GET /admin/sys/url/walletapi/useraddress/ HTTP/1.1" 200 13151
+[2018-03-13 09:56:33,451] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:41,707] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:56:41,726] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:43,033] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8167
+[2018-03-13 09:56:43,065] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:46,967] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:56:46,980] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:51,769] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/2/change/ HTTP/1.1" 200 16386
+[2018-03-13 09:56:51,788] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:54,438] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:56:55,829] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12003
+[2018-03-13 09:56:55,848] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:56:58,966] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:56:58,983] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:57:04,075] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/2/change/ HTTP/1.1" 200 16386
+[2018-03-13 09:57:04,092] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:57:22,470] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8167
+[2018-03-13 09:57:22,489] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:57:25,775] [INFO] "GET /admin/sys/url/walletapi/apicallback/add/ HTTP/1.1" 200 9191
+[2018-03-13 09:57:25,793] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:57:27,408] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8167
+[2018-03-13 09:58:19,361] [INFO] "GET / HTTP/1.1" 200 62
+[2018-03-13 09:58:23,608] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8392
+[2018-03-13 09:58:23,624] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:58:38,918] [INFO] "GET /admin/sys/url/walletapi/cointype/ HTTP/1.1" 200 9239
+[2018-03-13 09:58:38,937] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:58:39,838] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8392
+[2018-03-13 09:58:39,858] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:58:40,137] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:58:40,151] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:58:40,671] [INFO] "GET /admin/sys/url/walletapi/apicallback/ HTTP/1.1" 200 8392
+[2018-03-13 09:58:40,688] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:59:37,384] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:59:37,404] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:59:40,920] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/2/change/ HTTP/1.1" 200 16386
+[2018-03-13 09:59:40,937] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:59:43,043] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 09:59:46,951] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/2/change/ HTTP/1.1" 200 16386
+[2018-03-13 09:59:46,970] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 09:59:51,181] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/ HTTP/1.1" 200 8429
+[2018-03-13 10:00:03,730] [INFO] "GET /admin/sys/url/walletapi/appuserrecharge/2/change/ HTTP/1.1" 200 16386
+[2018-03-13 10:00:03,753] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 10:23:49,805] [WARNING] Not Found: /admin/
+[2018-03-13 10:23:49,805] [WARNING] "GET /admin/ HTTP/1.1" 404 2159
+[2018-03-13 10:23:53,424] [INFO] "GET /admin/sys/url/ HTTP/1.1" 200 12544
+[2018-03-13 10:23:58,868] [INFO] "GET /admin/sys/url/walletapi/transactionsid/ HTTP/1.1" 200 12003
+[2018-03-13 10:23:58,890] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 10:24:09,749] [INFO] "GET /admin/sys/url/auth/user/ HTTP/1.1" 200 10730
+[2018-03-13 10:24:09,769] [INFO] "GET /admin/sys/url/jsi18n/ HTTP/1.1" 200 7758
+[2018-03-13 10:54:50,117] [WARNING] Not Found: /admin/login/
+[2018-03-13 10:54:50,118] [WARNING] "GET /admin/login/?next=/admin/ HTTP/1.1" 404 2190

@@ -1,5 +1,5 @@
 # coding:utf8
-
+from django.http import HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import renderers
@@ -10,6 +10,7 @@ from walletapi import models as wallet_models
 
 # Create your views here.
 import hashlib
+import json
 from comm.bitcoin_conn import RPCBitcoin
 
 
@@ -145,3 +146,17 @@ class TransactionsGetApi(APIView):
         wallet_models.TransactionsID.objects.get_or_create(coin_type=coin_type, transaction_id=tx_id)
 
         return Response({'code': 0, 'message': 'request tx id successful!!'})
+
+
+
+
+#def page_not_found(request):
+#    return HttpResponse(json.dumps({'code':1,'message':'404 Error!'}))
+
+
+#def page_error(request):
+#    return HttpResponse(json.dumps({'code':1,'message':'500 Error!'}))
+
+
+#def permission_denied(request):
+#    return HttpResponse(json.dumps({'code':1,'message':'403 Error!'}))

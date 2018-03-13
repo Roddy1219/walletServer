@@ -17,6 +17,9 @@ from django.conf.urls import url,include
 from django.contrib import admin
 from walletapi import views as wallet_views
 
+# define error page
+
+
 urlpatterns = [
     url(r'^$',wallet_views.IndexView.as_view(),name="index"),
     url(r'^admin/sys/url/', admin.site.urls),

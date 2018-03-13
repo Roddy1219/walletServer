@@ -44,7 +44,6 @@ ALLOWED_HOSTS = CONFIG.ALLOWED_HOSTS
 # Application definition
 
 INSTALLED_APPS = [
-
     'walletapi.apps.SuitConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -135,6 +134,10 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static'),
+]
 
 SIGIN_KEY = CONFIG.SIGIN_KEY
 

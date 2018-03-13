@@ -24,9 +24,13 @@ class TransactionIDAdmin(admin.ModelAdmin):
     list_filter = ('used','coin_type')
 
 
+class ApiCallbackAdmin(admin.ModelAdmin):
+    list_display = ('app_name','app_url')
+
+
 admin.site.site_header = u'Wallet Admin Site'
 admin.site.register(wallet_models.CoinType, CoinTypeAdmin)
-admin.site.register(wallet_models.ApiCallback)
+admin.site.register(wallet_models.ApiCallback,ApiCallbackAdmin)
 admin.site.register(wallet_models.TransactionsID,TransactionIDAdmin)
 admin.site.register(wallet_models.UserAddress,UserAddressAdmin)
 admin.site.register(wallet_models.UserBalance, UserBalanceAdmin)
